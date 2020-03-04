@@ -1,0 +1,241 @@
+* {
+  padding:0;
+  margin: 0;
+}
+@font-face{
+  font-family: Montserrat;
+  src: url(/montserrat/Montserrat-Regular.otf);
+}
+@font-face{
+  font-family: Bebas Neue;
+  src: url(/bebas-neue/BebasNeue-Regular.ttf);
+}
+body, h5, a, .monte, p{
+  font-family: Montserrat !important;
+
+}
+h1, h2, h3, .bebas{
+  font-family: Bebas Neue !important;
+}
+
+.text-black{
+  color: black;
+}
+.text-shadow{
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.15);
+}
+.big-icon{
+  font-size:32px;
+}
+header{
+  /* position: fixed; */
+  position: top;
+}
+
+.overlay{
+  background:rgba(0, 0, 0,0.6);
+}
+/* --NAVBAR-- */
+.navbar.transparent.navbar-inverse .navbar-inner {
+  background: rgba(255,0,0,0.4) !important;
+}
+nav{
+  background-color: rgba(255,0,0,0.9) !important;
+}
+.active{
+ 
+  color: white !important;
+}
+.nav-link-black{
+  color: black !important;
+}
+.nav-link-black:hover{
+  color: white !important;
+}
+.nav-link{
+  font-weight: bold;
+}
+
+.navbar-brand{
+  margin-bottom: -3px !important ;
+}
+
+
+ 
+/* --FOOTER-- */
+.main-footer{
+  background-color: #2E2E2A;
+  font-weight: 150;
+  
+}
+.main-footer .right-footer li{
+  
+}
+.footerbar{
+  background-color: #FF0000;
+  font-weight: 50;
+}
+.left-footer {
+}
+.right-footer{
+  text-align: right;
+}
+@media(max-width: 576px){
+  .right-footer{
+    text-align: center;
+  
+  }
+  .left-footer{
+    text-align: center;
+  }
+  .main-footer li{
+    margin-bottom: 1px !important;
+  }
+  .main-footer ul{
+    margin: 0px !important;
+  }
+  .d-none-md
+}
+
+/* ====================INDEX======================= */
+#indexShowcase{
+  background-image: url(/img/indexShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 92vh;
+  /* background-position: 30px 30px; */
+  border-bottom:  4px  solid #FF0000 !important ;
+  
+}
+
+.showcase-fill-overlay{
+  background:rgba(0, 0, 0,0.6);
+
+  left:0;
+  height:92vh;
+  border-bottom:  4px  solid #FF0000 !important ;
+}
+
+.showcase-fill{
+  height: 92vh;
+  
+}
+.rounded-pill .badge{
+  width:17px;
+}
+
+#splitFormIndex{
+  background-image: url(/img/TruckBack.png);
+  background-size: cover;
+  background-position: center;
+  /* background-size: unset;s */
+}
+/* .carousel-inner > .item > img {
+  width:100%;
+  height:360px;
+} */
+.carousel{
+  width:100%;
+  height:364px;
+}
+
+.item{
+  height:364px;
+}
+.item img {
+  max-height: 100%;  
+  max-width: 100%; 
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  margin: auto;
+  }
+/* ====================ABOUT======================= */
+#aboutShowcase{
+  background-image: url(/img/aboutIndex2.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 50vh;
+  /* background-position: 0px -10px; */
+}
+.showcase-fill-no-index-overlay{
+  background:rgba(0, 0, 0,0.6);
+
+  left:0;
+  height:50vh;
+}
+.showcase-fill-no-index{
+  height: 50vh;
+}
+
+.move-left{
+  position: ;
+}
+
+/* ====================SERVICES======================= */
+#servicesShowcase{
+  background-image: url(/img/servicesShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 50vh;
+  /* background-position: 0px -10px; */
+}
+.showcase-fill-no-index-overlay{
+  background:rgba(0, 0, 0,0.6);
+
+  left:0;
+  height:50vh;
+}
+.showcase-fill-no-index{
+  height: 50vh;
+}
+.icon{
+  height:75px;
+}
+#paymentMethods{
+  background-color: #2E2E2A;
+}
+.payment-card{
+  height:30px;
+}
+
+/* ====================CONTACT======================= */
+#contactShowcase{
+  background-image: url(/img/contactShowcase.jpg);
+  /* background-size: cover; */
+  background-position: 50% 80%;
+  /* background-repeat: no-repeat; */
+  height: 50vh;
+  /* background-position: 0px -10px; */
+}
+.thick-right-border-md-up-white{
+  border-right: #ffffff 2px solid;
+}
+.thick-left-border-md-up-white{
+  border-left: #ffffff 2px solid;
+}
+.thick-right-border-md-up{
+  border-right: black 2px solid;
+}
+.thick-left-border-md-up{
+  border-left: black 2px solid;
+}
+@media(max-width: 768px){
+  .thick-right-border-md-up{
+    border-right: 0;
+  }
+  .thick-left-border-md-up{
+    border-left: 0;
+  }
+  .thick-right-border-md-up-white{
+    border-right: 0;
+  }
+  .thick-left-border-md-up-white{
+    border-left: 0;
+  }
+}
