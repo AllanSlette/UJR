@@ -1,67 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165275981-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-165275981-1');
+  </script>
+
+  
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Urban Junk Removal is a local, family, full-service junk removal and trash hauling company. We will pick us and haul off any unwanted items around your home or office. No job is too big or too small for us. We ensure the best customer service every time. Call Urban Junk Removal today and let us show you why we are the gold standard in junk removal in Northwest Arkansas.">
-  <meta name="keywords" content="about, about us, info">
+  <meta name="description" content="At Urban Junk Removal we are here to take the stress that comes with getting rid of clutter in your home or place of business.">
+  <meta name="keywords" content="free, free onsite estimate, storage buildings, appliance removal, construction debris, cleanup, foreclosure, spring cleaning, furniture removal, garage clean outs, moving leftovers, rental properties, hot tub removal, services">
+  <!--  Share META Tags -->
+
+  <meta property="og:title" content="Urban Junk Removal | Services">
+  <meta property="og:description" content="At Urban Junk Removal we are here to take the stress that comes with getting rid of clutter in your home or place of business.">
+  <meta property="og:image" content="https://urbanjunkremoval.com/img/UJR-share-img.jpg">
+  <meta property="og:url" content="https://urbanjunkremoval.com/services.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Urban Junk Removal">
+  <meta name="twitter:image:alt" content="Urban Junk Removal">
 
 
   <!-- bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <!-- animate on scroll -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="css/aos.css" rel="stylesheet">
   <!-- custom css -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- Navbar css -->
+  <link rel="stylesheet" href="css/navstyle.css">
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/c6afb5ef3c.js" crossorigin="anonymous"></script>
   <!-- google translate innit -->
   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
   </script>
   
-  
-  <title>Urban Junk Removal | About</title>
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="img/favicon/ujr-favicon.png" type="image/png">
+  <title>Urban Junk Removal | Services</title>
 
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark position-sticky ">
+    <nav>
       <div class="container">
-      <a class="navbar-brand mt-0 mb-0 py-0" href="index.html">
-        <h1 class="h4 py-0 my-0">Urban Junk Removal</h1>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse mr-auto mt-auto" id="navbarNav">
-        <div class=" ml-5">
-          <ul class="navbar-nav mt-auto py-0">
-            <li class="nav-item ">
-              <a class="nav-link pb-0" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active pb-0" href="services.html">Services<span class="sr-only ">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pb-0" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  pb-0" href="about.html">About</a>
-            </li>
+        <a href="index.html">
+          <div class="logo">
+            <h2><span class="text-primary">Urban</span> Junk Removal</h2>
+          </div>
+        </a>
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">
+            Home
             
-          </ul>
-        </div>
-        <div class="d-inline ml-auto mt-auto">
-          <ul class="navbar-nav">
-            <li class="nav-item mt-auto">
-              <a class="nav-link mt-auto pb-2  ml-47 mr-5 " href="tel:4793136821">Call Us At 479-313-6821</a>
-            </li>
+          </a>
+          </li>
+          <li>
+            <a class="active" href="./services.html">Services</a>
+            <span class="sr-only">(current)</span>
+          </li>
+          <li>
+            <a href="/contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
             <div id="google_translate_element"></div>
-          </ul>
-          
+          </li>
+        </ul>
+        <div id="toggler">
+          <div class="patty mb-1"></div>
+          <div class="patty mb-1"></div>
+          <div class="patty"></div>
         </div>
-      </div>
       </div>
     </nav>
   </header>
@@ -70,9 +91,9 @@
 
   <section id="servicesShowcase" class="border-bottom border-primary">
     <div class="showcase-fill-no-index-overlay">
-    <div class="container d-flex flex-column justify-content-center align-content-center  showcase-fill-no-index">
-      <h1 class=" text-center text-white text-capitalize  monte">Junk Removal</h1>
-      <h2 class="text-center text-white mt-5 text-capitalize monte">Done your way</h2>
+    <div class="container d-flex flex-column justify-content-center align-content-center">
+      <h2 class=" text-center text-white text-capitalize monte sub-page-showcase-title" data-aos="fade-in">Junk Removal</h2>
+      <h2 class="text-center text-white mt-5 text-capitalize monte sub-page-showcase-subtitle" data-aos="fade-right">Done your way</h2>
       
 
       
@@ -80,39 +101,47 @@
   </div>
   </section>
 
-  <section id="atUrban">
+  <section class="py-5 bg-off" id="atUrban">
     <div class="container">
-      <div class="row mt-5 d-flex justify-content-between ">
+      <div class="row d-flex justify-content-between ">
         <div class="col-md-7  align-self-center">
           <p>
             At Urban Junk Removal we are here to take the stress that comes with getting rid of clutter in your home or place of business. It starts with you reaching out to us. We then schedule an appointment where we come to you for a free onsite estimate. Once we agree on price, then sit back and let us do the work for you! Below we have listed several examples of items we have experience in handling. If you have any questions feel free to contact us today!
           </p>
         </div>
         <div class="col-md-4 bebas">
+
+          <a class="bebas" href="contact.html">
           <div class="rounded-pill bg-dark py-2 mb-3 d-flex align-items-center shadow bebas">
             <span class="text-wite ml-3 badge badge-light badge-drk rounded-circle">1</span>
             <h4 class="text-white ml-3 d-inline my-0 text-uppercase" >Reach out to us</h4>
           </div>
+          </a>  
           
+          <a class="bebas" href="contact.html">
           <div class="rounded-pill bg-dark py-2 mb-3 d-flex align-items-center shadow">
             <span class="text-wite ml-3 badge badge-light badge-drk rounded-circle">2</span>
             <h4 class="text-white ml-3 d-inline my-0 text-uppercase">Get an Onsight Estimate</h4>
           </div>
+          </a>
 
+          <a class="bebas" href="contact.html">
           <div class="rounded-pill bg-dark py-2 mb-3 d-flex align-items-center shadow">
             <span class="text-wite ml-3 badge badge-light badge-drk rounded-circle text">3</span>
             <h4 class="text-white ml-3 d-inline my-0 text-uppercase">Junk Removal</h4>
           </div>
+          </a>
+
         </div>
       </div>
-      <hr class=" mx-auto bg-primary mt-5 mb-5">
     </div> 
   </section>
-
-  <section id="services ">
-    <div class="container px-5 pt-5">
+  <!-- <hr class=" mx-auto bg-primary mt-5 mb-0"> -->
+  
+  <section id="services " class="py-5 ">
+    <div class="container px-5 py-2">
     
-      <h1 class="text-center mt-5 mb-5">What We do</h1>
+      <h1 class="text-center mb-5">What We do</h1>
       <div class="row mx-5 mb-0">
 
         <ul class="d-none">
@@ -238,7 +267,7 @@
   <section id="paymentMethods" class="badge-dark">
     <div class="container">
       <div class="d-flex flex-column justify-content-center text-white align-content-center">
-        <h2 class="text-center mt-3 monte">Accepted Payment Methods</h2>
+        <h2 class="text-center mt-3 monte text-white">Accepted Payment Methods</h2>
         <div class="col-12 col-sm-8 col-md-6 col-lg-4 justify-content-around d-flex mx-auto mb-3">
           <img class="payment-card" src="img/payment_icons/visa.png" alt="Visa" data-toggle="tooltip" title="Visa">
           <img class="payment-card" src="img/payment_icons/amex.png" alt="American Express" data-toggle="tooltip" title="American Express">
@@ -246,6 +275,7 @@
           <!-- <img class="payment-card" src="img/payment_icons/dinersclub.png" alt="Diners Club" data-toggle="tooltip" title="Diners Club"> -->
           <img class="payment-card" src="img/payment_icons/discover.png" alt="Discover Card" data-toggle="tooltip" title="Discover Card">
           <img class="payment-card" src="img/payment_icons/mastercard.png" alt="Mastercard" data-toggle="tooltip" title="Mastercard">
+          <img class="payment-card bigger-payment-card" src="img/payment_icons/paypal.svg" alt="PayPal" data-toggle="tooltip" title="PayPal">
           
         </div>
       </div>
@@ -253,7 +283,7 @@
   </section>
 
 
-  <section id="splitFormIndex" class=" ">
+  <section id="splitFormIndex" class="">
     <div class="overlay py-5">
     <div class="container">
       <div class="row d-flex align-content-start">
@@ -286,7 +316,7 @@
 
           </form>
         </div>
-        <div class="col-md-6 mx-0 d-flex flex-column justify-content-center mt-3">
+        <div class="col-md-6 mx-0 d-flex flex-column justify-content-between mt-3 ">
           <h4 class="text-center text-capitalize text-white">
             Located in 
             <br>
@@ -296,7 +326,9 @@
             <br><br>
             <a href="mailto:urbcat99@gmail.com" class="text-white">urbcat99@gmail.com</a>
           </h4>
-          <img src="img/map1.jpg" alt="" class="d-flex align-self-center w-100 mt-auto rounded">
+          <div class="map-wrapper">
+            <img src="img/map1.jpg" alt="" class="d-flex align-self-center w-75 mt-auto rounded">
+          </div>
         </div>
       </div>
     </div>
@@ -308,7 +340,7 @@
       <div class="container">
         <div class="row d-flex justify-content-between">
           <div class="col-sm-6 left-footer d-flex flex-column justify-content-center">
-            <ul class="list-unstyled my-2 d-flex flex-column ">
+            <ul class="list-unstyled my-2 d-flex flex-column justify-content-between h-100">
               <li><a href="index.html" class="text-white">Home</a></li>
               <li><a href="services.html" class="text-white">Services</a></li>
               <li><a href="contact.html" class="text-white">Contact</a></li>
@@ -323,13 +355,22 @@
               <li><a href="contact.html" class="text-white">Questions or Comments?</a></li>
               <li><a href="mailto:urbcat99@gmail.com" class="text-white">urbcat99@gmail.com</a></li>
               <li><a href="contact.html" class="text-white">Contact Us</a></li>
-              <li>
-                <a href="https://www.facebook.com/UrbanJunkRemovalNWA/"><i class="fab fa-facebook-square text-white"></i>
+              <li class="d-flex ml-auto align-content-center icon-row">
+                <a href="https://www.facebook.com/UrbanJunkRemovalNWA/">
+                  <i class="fab fa-facebook-square text-white footer-icon"></i>
                 </a>
 
-                <a href="https://www.homeadvisor.com/rated.UrbanJunkRemovalLLC.56371751.html" class="text-white d-none">Home Advisor</a>
+                <a href="https://www.homeadvisor.com/rated.UrbanJunkRemovalLLC.56371751.html" class="text-white">
+                  <img src="img/icons8-homeadvisor.svg" alt="" class="filter-white footer-icon">
+                </a>
 
-                <a href="https://www.christianbusinessonline.com/springdale-ar/junk-removal/urban-junk-removal-llc"></a>
+                <a href="https://www.yelp.com/biz/urban-junk-removal-springdale" class="text-white ">
+                  <img src="img/iconfinder_yelp_1_rounded_605942.svg" alt="" class="filter-white footer-icon">
+                </a>
+
+                <a href="https://www.christianbusinessonline.com/springdale-ar/junk-removal/urban-junk-removal-llc"class="text-white filter-white footer-icon ">
+                  <img src="img/christian business.ico" alt="" class="footer-icon">
+                </a>
               </li>
             </ul>
           </div>
@@ -343,7 +384,7 @@
 
 
           <div class="col-sm-6 left-footer">
-            <span class="text-white">Copyright &copy; <span id="year"></span> Reframe Your Story</span>
+            <span class="text-white">Copyright &copy; <span id="year"></span> Urban Junk Removal</span>
           </div>
 
           <div class="col-sm-6 right-footer">
@@ -358,7 +399,7 @@
   </footer>
 
 
-
+  
   <!-- google translate logic -->
   <script type="text/javascript">
     function googleTranslateElementInit() {
@@ -366,6 +407,8 @@
     }
   </script>
 
+  <!-- navbar js -->
+  <script src="js/nav.js"></script>
 
 
 
